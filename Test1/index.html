@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Sharing Platform</title>
+  <div class="top-right">
+    
+  </div>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mini Youtube</h1>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search videos...">
+        <button id="searchButton">Search</button>
+      </div>
+
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#id-navbarNav"
+                aria-controls="id-navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="id-navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Videos</a>
+                            <li class="nav-item">
+                                <button class="btn  btn-primary">Logout</button>
+                    </li>
+                    
+                    
+                    
+                    
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+  </header>
+  
+    <main>
+    
+    
+    <div class="video-container">
+      <div class="video-player">
+        
+        
+        <video id="video1" controls>
+            <a href="video1.html">
+                <img class="thumbnail" src="video1-thumbnail.jpg" alt="Video Thumbnail">
+              </a>
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-info">
+          <h2 class="video-title">Lit Your Life</h2>
+          <span class="video-duration">Duration: 00:00</span>
+        </div>
+        <div class="video-actions">
+          <button class="like-button">Like</button>
+          <button class="dislike-button">Dislike</button>
+        </div>
+        <div class="comment-section">
+          <h3>Comments</h3>
+          <form class="comment-form">
+            <input type="text" class="comment-input" placeholder="Write a comment...">
+            <button type="submit">Submit</button>
+          </form>
+          <ul class="comment-list"></ul>
+        </div>
+      </div>
+      
+      <div class="video-player">
+        
+        <video id="video2" controls>
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-info">
+          <h2 class="video-title">Essentials in a Suitcase</h2>
+          <span class="video-duration">Duration: 00:00</span>
+        </div>
+        <div class="video-actions">
+          <button class="like-button">Like</button>
+          <button class="dislike-button">Dislike</button>
+        </div>
+        <div class="comment-section">
+          <h3>Comments</h3>
+          <form class="comment-form">
+            <input type="text" class="comment-input" placeholder="Write a comment...">
+            <button type="submit">Submit</button>
+          </form>
+          <ul class="comment-list"></ul>
+        </div>
+      </div>
+      
+      <div class="video-player">
+        
+        <video id="video3" controls>
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-info">
+          <h2 class="video-title">How to Become Successful</h2>
+          <span class="video-duration">Duration: 00:00</span>
+        </div>
+        <div class="video-actions">
+          <button class="like-button">Like</button>
+          <button class="dislike-button">Dislike</button>
+        </div>
+        
+        <div class="comment-section">
+          <h3>Comments</h3>
+          <form class="comment-form">
+            <input type="text" class="comment-input" placeholder="Write a comment...">
+            <button type="submit">Submit</button>
+          </form>
+          <ul class="comment-list"></ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Video Sharing Platform. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
